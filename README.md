@@ -34,7 +34,8 @@ INSTRUCTIONS:
 TODO:
 - Update script to turn on unattended upgrades for Ubuntu.
 - Create a systemd unit file for automatically running/re-starting the server as needed.
-
+- For 3rd party packages that are downloaded separately, consider including them in this repo (if licences allow), so the script doesn't need to download them with curl/wget.
+- Include and automatically install some additional map packages for commonly played maps.
 
 CREATED BY:
 Ryan Antkowiak
