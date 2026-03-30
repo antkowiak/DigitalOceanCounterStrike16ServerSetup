@@ -1,11 +1,11 @@
 # DigitalOceanCounterStrike16ServerSetup
 Setup scripts to create and setup a Counter-Strike 1.6 dedicated server on a Digital Ocean Droplet VPS.
 The script automatically takes care of all of the following:
-- Setting up UFW Firewall rules
-- Creating a user account for running the steam server
-- Configured software package managers for non-interactive setup and adding i386 architecture
-- Installs linux software updates
-- Installs required linux software packages and dependencies
+- Set up UFW Firewall rules
+- Create a user account for running the steam server
+- Configure software package managers for non-interactive setup and adding i386 architecture
+- Install linux software updates
+- Install required linux software packages and dependencies
 - Uses `steamcmd` to install HLDS cstrike with the beta steam_legacy settings. (Runs multiple times to work around steamcmd bugs)
 - Downloads and installs ReHLDS patch into the cstrike server.
 - Downloads and installs Metamod-R.
@@ -13,11 +13,11 @@ The script automatically takes care of all of the following:
 - Downloads and installs AMX Mod X Counter-Strike Package.
 - Downloads and installs ReGameDLL_CS patch.
 - Downloads and installs ReAPI.
-- Creates a convenience script `run_cstrike_server.sh` for the steam user to start running the server.
-- Populates server.cfg settings
-- Populates mapcycle.txt
-- Populates motd.txt
-- Creates empty banlist files to silence some server error messages.
+- Create a convenience script `run_cstrike_server.sh` for the steam user to start running the server.
+- Populate server.cfg settings
+- Populate mapcycle.txt
+- Populate motd.txt
+- Create empty banlist files to silence some server error messages.
 
 
 INSTRUCTIONS:
