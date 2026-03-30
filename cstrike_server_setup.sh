@@ -175,7 +175,6 @@ unzip reapi-bin-5.26.0.338.zip
 cp -R /home/${STEAM_USER}/reapi/addons/amxmodx /home/${STEAM_USER}/cstrike/cstrike/addons/
 echo "reapi" >> /home/${STEAM_USER}/cstrike/cstrike/addons/amxmodx/configs/modules.ini
 
-
 EOF
 chown ${STEAM_USER}:${STEAM_USER} /home/${STEAM_USER}/${INSTALL_SCRIPT_FILENAME}
 chmod 700 /home/${STEAM_USER}/${INSTALL_SCRIPT_FILENAME}
